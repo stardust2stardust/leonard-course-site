@@ -1,5 +1,5 @@
 // import React from "react";
-// import benzeneIcon from "../assets/benzene.svg";
+import benzeneIcon from "../assets/benzene.svg";
 // import menuIcon from "../assets/menu-icon.svg";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
@@ -10,78 +10,59 @@ import { AiOutlineClose } from "react-icons/ai";
 export default function Header() {
   const [togglerNav, setTogglerNav] = useState(false);
 
-  const handleClick = () => {
-    setTogglerNav(!togglerNav);
-  };
+ 
+  const handleToggle = () => {
+    const mobileMenu = document.querySelector('.mobile-menu')
+    console.log(togglerNav)
+    if (togglerNav) {
+      mobileMenu.classList.add('open');
+      
+    } 
+    if (!togglerNav) {
+      mobileMenu.classList.add('closed');
+      mobileMenu.classList.remove('open')
+    }
+    setTogglerNav(!togglerNav)
+    console.log(togglerNav)
+  }
 
   return (
-    <header>
-        <div className="brand">
-            <Link to="/">
-                <BsHexagon className="text-3xl" />
-            </Link></div>
-            <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/resources">Resources</a></li>
-      <li><a href="/research">Research</a></li>
-      <li><a href="/publications">Publications</a></li>
-      <li><a href="/academics">Academics</a></li>
-    </ul>
-  </nav>
-  <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-    <ul class="mobile-menu">
-      <li><a href="/">Home</a></li>
-      <li><a href="/books">Books</a></li>
-      <li><a href="/videos">Videos</a></li>
-      <li><a href="/reserch">Research</a></li>
-      <li><a href="/publications">Publications</a></li>
-      <li><a href="/academics">Academics</a></li>
-    </ul>
-  </div>
-        
-
-        {/* <nav className="h-auto md:h-2 p2 max-w-6xl mx-auto flex justify-end md:items-center navbar">
-      
-      <div
-        className={
-          togglerNav ? "flex flex-col gap-4 md:inline" : "hidden md:inline"
-        }
-      >
-        <NavLink className="nav-link" onClick={handleClick} to="/">
-          Home
-        </NavLink>
-
-        <NavLink className="nav-link" onClick={handleClick} to="/resources">
-          Resources
-        </NavLink>
-        <NavLink className="nav-link" onClick={handleClick} to="/research">
-          Research
-        </NavLink>
-        <NavLink
-          className="nav-link"
-          onClick={handleClick}
-          to="/publications-and-presentations"
-        >
-          Publications
-        </NavLink>
-        <NavLink className="nav-link" onClick={handleClick} to="/academics">
-          Academics
-        </NavLink>
+    <header className="header">
+      <div id="">
+        <Link to="/" id="brand">
+            {/* <BsHexagon /> */}
+            <img src={benzeneIcon} alt="" className="benzene-icon"/> 
+            <p>Michael Leonard, PhD</p>
+        </Link>
       </div>
-      <button
-        className="inline md:hidden self-start nav-link"
-        onClick={handleClick}
-      >
-        {" "}
-        {togglerNav ? <AiOutlineClose /> : <FaBars />}
-      </button>
-    </nav> */}
-    </header>
-    
-  );
-}
+      <nav id="desktop-menu">
+        <ul>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/resources">Resources</NavLink></li>
+          <li><NavLink to="/research">Research</NavLink></li>
+          <li><NavLink to="/publications">Publications</NavLink></li>
+          <li><NavLink to="/academics">Academics</NavLink></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon"  onClick={handleToggle}>
+        {togglerNav ? <FaBars /> :<AiOutlineClose /> }
+      </div>
+      {/* <div id="hamburger-icon" onClick={handleToggle}>
+        <div className="bar1"></div>
+        <div className="bar2"></div>
+        <div className="bar3"></div>
+        </div> */}
+        <ul id="mobile-menu" className="mobile-menu closed">
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/resources">Resources</NavLink></li>
+          <li><NavLink to="/reserch">Research</NavLink></li>
+          <li><NavLink to="/publications">Publications</NavLink></li>
+          <li><NavLink to="/academics">Academics</NavLink></li>
+        </ul>
+      
+    </header> 
+      );
+    }
+
+
 

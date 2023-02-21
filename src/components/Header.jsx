@@ -40,7 +40,7 @@ export default function Header() {
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/resources">Resources</NavLink></li>
           <li><NavLink to="/research">Research</NavLink></li>
-          <li><NavLink to="/publications">Publications</NavLink></li>
+          <li><NavLink to="/publications-and-presentations">Publications</NavLink></li>
           <li><NavLink to="/academics">Academics</NavLink></li>
         </ul>
       </nav>
@@ -56,7 +56,7 @@ export default function Header() {
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/resources">Resources</NavLink></li>
           <li><NavLink to="/reserch">Research</NavLink></li>
-          <li><NavLink to="/publications">Publications</NavLink></li>
+          <li><NavLink to="/publications-and-presentations">Publications</NavLink></li>
           <li><NavLink to="/academics">Academics</NavLink></li>
         </ul>
       

@@ -42,7 +42,7 @@ export default function Home() {
           </p>
         </section>
 
-        <SecondaryNav />
+        {/* <SecondaryNav /> */}
       </div>
     </div>
   );

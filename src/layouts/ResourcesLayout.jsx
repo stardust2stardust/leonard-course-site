@@ -3,11 +3,17 @@ import { NavLink, Outlet } from "react-router-dom";
 export default function ResourcesLayout() {
   return (
     <div className="resources-layout">
-      <h2>Learning Resources</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p>
+      <h2 className="page-title">Learning Resources</h2>
+      
+      <div className="resource-links-container">
+      <NavLink to="/resources/books" className="link-to-resource">Books</NavLink>
+      <NavLink to="/resources/videos" className="link-to-resource">Videos</NavLink>
+      </div>
+      
+     
+      
 
-      <NavLink to="/resources/books">Books</NavLink>
-      <NavLink to="/resources/videos">Videos</NavLink>
+
 
       <Outlet />
     </div>

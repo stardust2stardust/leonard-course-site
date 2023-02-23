@@ -32,7 +32,7 @@ export default function Header() {
         <Link to="/" id="brand">
             {/* <BsHexagon /> */}
             <img src={benzeneIcon} alt="" className="benzene-icon"/> 
-            <p>Michael Leonard, PhD</p>
+            <p>Michael S. Leonard, Ph.D.</p>
         </Link>
       </div>
       <nav id="desktop-menu">

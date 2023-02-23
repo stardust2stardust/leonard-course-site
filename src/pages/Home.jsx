@@ -8,7 +8,7 @@ export default function Home() {
       <div className="page-content">
         <section className="intro-section">
           <div className="intro-grid">
-            <h1 className="professor-name page-title">Michael Leonard, PhD</h1>
+            <h1 className="professor-name page-title">Michael S. Leonard, Ph.D.</h1>
             <h2 className="professor-title">Professor of Chemistry</h2>
             <img
               src={introPhoto}

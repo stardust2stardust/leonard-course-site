@@ -13,7 +13,7 @@ export default function Books() {
 
   return (
    
-      <section className="inner-content book-list-container">
+      <section className=" book-list-container">
         {cardElements}
       </section>
   

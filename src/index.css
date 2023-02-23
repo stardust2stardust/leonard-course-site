@@ -257,6 +257,10 @@ hr {
   margin-top: 1rem;
 }
 
+.professor-title {
+  margin-top: 0;
+}
+
 .intro-section h2 {
   text-align: center;
   font-size: 1.2rem;
@@ -316,7 +320,7 @@ hr {
 
 .resource-links-container {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   justify-content: center;
   margin-bottom: 3rem;
 }
@@ -324,11 +328,14 @@ hr {
 .link-to-resources {
   text-decoration: none;
   color: var(--brand-black);
+  padding: .5rem 1rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 
 .active-navLink {
   font-weight: bold;
-  text-decoration: underline;
+  
 }
 
 /* .link-to-resource {
@@ -424,38 +431,61 @@ hr {
   background-color: var(--brand-red);
 } */
 
-.book-container {
+/* .book-container {
   margin-bottom: 5rem;
+  border: 2px solid magenta;
+ 
 }
 
 .book-container a {
   text-decoration: none;
   color: var(--brand-black);
+  
+} */
+
+.book-list-container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 3rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  max-width: 1000px;
 }
 
 .book-card {
   margin: 0 auto;
   /* text-align: center; */
-  background-color: var(--brand-white);
+  /* background-color: var(--brand-white); */
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  max-width: 300px;
-  padding: 0.5rem 1rem;
+  width: 300px;
+  text-decoration: none;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: var(--brand-black);
 }
 
+/* .book-card a {
+  text-decoration: none;
+  
+} */
+
 .book-card--image {
+  display: block;
+  margin: 0 auto;
   max-width: 200px;
 }
 
-.book-card h2,
-.page-content .book-title {
+.book-card h2, .book-title {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 .book-card .subtitle {
@@ -467,10 +497,10 @@ hr {
 
 .book-card p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  text-align: center;
 }
 
-.book-container .more-info-btn {
+/* .book-container .more-info-btn {
   display: block;
   margin: 0 auto;
   margin-top: 1.2rem;
@@ -481,10 +511,10 @@ hr {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
 
 .inner-content {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 

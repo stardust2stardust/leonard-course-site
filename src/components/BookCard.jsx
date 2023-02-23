@@ -7,9 +7,9 @@ export default function BookCard(props) {
   const bookImg = `bookImg${props.card.id}`;
 
   return (
-    <div className="book-container">
-      <NavLink className="info-link" to={bookSlug}>
-        <div className="book-card">
+    
+      <NavLink className="info-link book-card" to={bookSlug}>
+        {/* <div className="book-card"> */}
           <h2>{props.card.title}</h2>
           {/* <div className="book-card--image-container"> */}
           <img
@@ -20,9 +20,9 @@ export default function BookCard(props) {
           {/* </div> */}
 
           <p>{props.card.author}</p>
-        </div>
-        <button className="more-info-btn">More Info</button>
+        {/* </div> */}
+      
       </NavLink>
-    </div>
+
   );
 }

@@ -8,7 +8,7 @@ import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 
 export default function Header() {
-  const [togglerNav, setTogglerNav] = useState(false);
+  const [togglerNav, setTogglerNav] = useState(true);
 
  
   const handleToggle = () => {
@@ -53,11 +53,11 @@ export default function Header() {
         <div className="bar3"></div>
         </div> */}
         <ul id="mobile-menu" className="mobile-menu closed">
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/resources">Resources</NavLink></li>
-          <li><NavLink to="/reserch">Research</NavLink></li>
-          <li><NavLink to="/publications-and-presentations">Publications</NavLink></li>
-          <li><NavLink to="/academics">Academics</NavLink></li>
+          <li><NavLink to="/" onClick={handleToggle}>Home</NavLink></li>
+          <li><NavLink to="/resources" onClick={handleToggle}>Resources</NavLink></li>
+          <li><NavLink to="/research" onClick={handleToggle}>Research</NavLink></li>
+          <li><NavLink to="/publications-and-presentations" onClick={handleToggle}>Publications</NavLink></li>
+          <li><NavLink to="/academics" onClick={handleToggle}>Academics</NavLink></li>
         </ul>
       
     </header> 

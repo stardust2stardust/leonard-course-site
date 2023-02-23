@@ -12,11 +12,10 @@ export default function Books() {
   });
 
   return (
-    <div className="page-content">
-      <h1 className="page-title">Organic Chemistry Books</h1>
+   
       <section className="inner-content book-list-container">
         {cardElements}
       </section>
-    </div>
+  
   );
 }

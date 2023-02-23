@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Videos() {
   return (
-    <div className="page-content">
-      <h1 className="page-title">Videos</h1>
+   
+    
 
       <section className="inner-content videos">
         <h2>YouTube Mechanism Videos </h2>
@@ -135,6 +135,6 @@ export default function Videos() {
           </li>
         </ul>
       </section>
-    </div>
+ 
   );
 }

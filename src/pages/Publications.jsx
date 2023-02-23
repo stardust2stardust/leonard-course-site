@@ -5,13 +5,15 @@ export default function Publications() {
     <div className="page-content">
       <h1 className="page-title">Publications & Presentations</h1>
       <section className="inner-content publications">
-        <h2>Textbooks:</h2>
+        <h2>Textbooks</h2>
+        <hr />
         <ul className="textbook-list">
           <li>
             <h3>
               Leonard, Michael S. Organic Chemistry and Solutions Manual for
               Organic Chemistry, First Edition: 2015.
             </h3>
+            
             <ul>
               <li>
                 The textbook and solutions manual are available as{" "}
@@ -95,7 +97,8 @@ export default function Publications() {
           </li>
         </ul>
 
-        <h2>Publication on curriculum development:</h2>
+        <h2>Publication on curriculum development</h2>
+        <hr />
         <ul className="publications-list">
           <li>
             Leonard, M.S. "
@@ -150,9 +153,9 @@ export default function Publications() {
 
         <h2>
           Publications resulting from research with W&J College students and
-          Project SEED outreach students:
+          Project SEED outreach students
         </h2>
-
+        <hr />
         <ul className="publications-list">
           <li>
             Leonard, M. S. "The aporhoeadane alkaloids." Archive for Organic
@@ -181,9 +184,9 @@ export default function Publications() {
 
         <h2>
           Presentations and local chemical news articles resulting from research
-          with W&J College students and Project SEED outreach students:
+          with W&J College students and Project SEED outreach students
         </h2>
-
+        <hr />
         <ul className="presentations-list">
           <li>
             Pandit, N. N.; Leonard, M. S. “Synthesis of potentially neurotoxic
@@ -456,6 +459,7 @@ export default function Publications() {
         </ul>
 
         <h2>Presentations on Curriculum Development:</h2>
+        <hr />
         <ul className="presentations-list">
           <li>
             Leonard, M. S. “An Intersession Science & Art Course for Non-Science
@@ -482,6 +486,7 @@ export default function Publications() {
         </ul>
 
         <h2>Interviews:</h2>
+        <hr />
         <ul className="interviews-list">
           <li>
             Interviewed for U.S. News and World Report article entitled “Take a
@@ -512,6 +517,7 @@ export default function Publications() {
           Publications during my career at W&J that resulted from my doctoral
           research at the University of Pennsylvania:
         </h2>
+        <hr />
         <ul className="publications-list">
           <li>
             Alexander, M. D.; Burkart, M. D.; Leonard, M. S.; Portonovo, P.;
@@ -541,6 +547,7 @@ export default function Publications() {
           Publications & presentations during my doctoral research at the
           University of Pennsylvania:
         </h2>
+        <hr />
         <ul className="publications-list">
           <li>
             Leonard, M. S.; Hauze, D. B.; Carroll, P. J.; Joullié, M. M.
@@ -601,6 +608,7 @@ export default function Publications() {
         </ul>
 
         <h2>Publication from my undergraduate research at Goucher College:</h2>
+        <hr />
         <ul className="publications-list">
           <li>
             Horn, D. E.; Leonard, M. S.; Fischl, A. J.; Gray, M.; Clark, D. W.;

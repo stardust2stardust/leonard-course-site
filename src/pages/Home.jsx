@@ -4,8 +4,7 @@ import article from "../assets/Why_I_Teach_Article.pdf";
 
 export default function Home() {
   return (
-    <div className="home-layout-container">
-      <div className="sidebar"></div>
+   
       <div className="page-content">
         <section className="intro-section">
           <div className="intro-grid">
@@ -42,8 +41,8 @@ export default function Home() {
           </p>
         </section>
 
-        {/* <SecondaryNav /> */}
+       
       </div>
-    </div>
+
   );
 }

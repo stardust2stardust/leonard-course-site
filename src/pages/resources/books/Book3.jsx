@@ -22,6 +22,7 @@ export default function Book3() {
 
       <div className="book-info-container">
       <div className="download-link-container multiple-links">
+        <h2>Get the book</h2>
           <div className="dl-type">
             <p>Hard Copy: </p>
             <a href="https://www.lulu.com/shop/michael-leonard/intermediate-organic-chemistry/paperback/product-21107718.html?page=1&pageSize=4">

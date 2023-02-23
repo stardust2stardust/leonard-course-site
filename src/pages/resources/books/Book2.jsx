@@ -26,6 +26,7 @@ export default function Book2() {
      
       <div className="book-info-container">
       <div className="download-link-container multiple-links">
+        <h2>Get the book</h2>
           <div className="dl-type">
             <p>Hard Copy: </p>
           <a

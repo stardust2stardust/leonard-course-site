@@ -20,6 +20,7 @@ export default function Book1() {
       </div>
       <div className="book-info-container">
         <div className="download-link-container">
+          <h2>Get the book</h2>
          <div>
          <a
             className="download-link"
@@ -34,7 +35,7 @@ export default function Book1() {
          </div>
           
         </div>
-        <h3>About this book</h3>
+        <h2>About this book</h2>
         <p>
           Organic chemistry is an important subject because it helps us to
           better understand biology and biochemistry. We also interact with and

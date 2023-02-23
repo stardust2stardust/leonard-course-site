@@ -357,13 +357,13 @@ hr {
 .book-info-container {
   max-width: 800px;
   margin: 0 auto;
-  margin-top: 2rem;
+  
 }
 
 .download-link-container {
   /* text-align: center; */
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  
   display: flex;
   flex-direction: column;
   gap: 1rem;

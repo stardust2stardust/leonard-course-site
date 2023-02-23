@@ -3,7 +3,7 @@ import bookTwoImage from "../../../assets/book2-imageOnly.jpg";
 
 export default function Book2() {
   return (
-    <div className="page-content">
+    <div>
       <div className="book-container">
         <div className="book-card">
           <div className="title-section">
@@ -22,28 +22,38 @@ export default function Book2() {
           <p>Michael S. Leonard</p>
         </div>
       </div>
+
+     
       <div className="book-info-container">
-        <div className="download-link-container multiple-links">
+      <div className="download-link-container multiple-links">
+          <div className="dl-type">
+            <p>Hard Copy: </p>
           <a
             href="https://www.lulu.com/shop/michael-leonard/introductory-organic-reaction-mechanisms-a-color-coded-approach-to-arrow-pushing/paperback/product-21240857.html?showPreview=true&page=1&pageSize=4"
             target="_blank"
           >
-            Hard copy via Lulu
+            Lulu
           </a>
 
           <a
             href="https://www.amazon.com/dp/1304515893?ref_=cm_sw_r_mwn_dp_7KNMP1WY7TV4SNPP7KQG"
             target="_blank"
           >
-            Hard copy via Amazon
+           Amazon
           </a>
-          <a
+          </div>
+          <div className="dl-type">
+            <p>Electronic form: </p>
+            <a
             href="https://www.scribd.com/doc/174107198/Introductory-Organic-Reaction-Mechanisms-A-color-coded-approach-to-arrow-pushing"
             target="_blank"
           >
-            Electronic form via Scribd
+            Scribd
           </a>
         </div>
+          </div>
+
+
         <h3>About this book</h3>
         <p>
           Check out excerpts from the book{" "}

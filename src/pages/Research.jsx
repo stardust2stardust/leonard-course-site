@@ -8,8 +8,9 @@ export default function Research() {
       <h1 className="page-title">Research</h1>
       <section className="inner-content research">
         <h2>
-          Below are examples of published, peer-reviewed papers from my group:
+          Examples of published, peer-reviewed papers from my group
         </h2>
+        <hr />
         <ul className="research-list">
           <li>
             Leonard, M. S. "
@@ -76,9 +77,9 @@ export default function Research() {
           </li>
         </ul>
       </section>
-      <section>
+     
         <ResearchGroup />
-      </section>
+      
     </div>
   );
 }

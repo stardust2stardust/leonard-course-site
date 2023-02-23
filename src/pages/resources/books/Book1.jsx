@@ -2,7 +2,7 @@ import React from "react";
 import bookOneImage from "../../../assets/book1-imageOnly.jpg";
 export default function Book1() {
   return (
-    <div className="page-content">
+    <div>
       <div className="book-container">
         <div className="book-card">
           <h1 className="book-title">
@@ -20,7 +20,8 @@ export default function Book1() {
       </div>
       <div className="book-info-container">
         <div className="download-link-container">
-          <a
+         <div>
+         <a
             className="download-link"
             href="https://mleonard.gumroad.com/l/organicchemistry"
             target="_blank"
@@ -30,6 +31,8 @@ export default function Book1() {
           <p className="download-link-instruction">
             (simply enter $0 in the price field).
           </p>
+         </div>
+          
         </div>
         <h3>About this book</h3>
         <p>

@@ -3,7 +3,7 @@ import bookThreeImage from "../../../assets/book3-imageOnly.jpg";
 
 export default function Book3() {
   return (
-    <div className="page-content">
+    <div>
       <div className="book-container">
         <div className="book-card">
           <h1 className="book-title">
@@ -21,21 +21,29 @@ export default function Book3() {
       </div>
 
       <div className="book-info-container">
-        <div className="download-link-container multiple-links">
-          <a href="https://www.lulu.com/shop/michael-leonard/intermediate-organic-chemistry/paperback/product-21107718.html?page=1&pageSize=4">
-            Hard copy via Lulu
+      <div className="download-link-container multiple-links">
+          <div className="dl-type">
+            <p>Hard Copy: </p>
+            <a href="https://www.lulu.com/shop/michael-leonard/intermediate-organic-chemistry/paperback/product-21107718.html?page=1&pageSize=4">
+            Lulu
           </a>{" "}
           <a href="https://www.amazon.com/dp/1304217566?ref_=cm_sw_r_mwn_dp_2J9065RN4FK7BVKBT0GP">
-            Hard copy via Amazon
+            Amazon
           </a>
-          <a href="https://www.scribd.com/doc/152768407/Intermediate-Organic-Chemistry">
-            Electronic form via Scribd
+          </div>
+          <div className="dl-type">
+            <p>Electronic form: </p>
+            <a href="https://www.scribd.com/doc/152768407/Intermediate-Organic-Chemistry">
+            Scribd
           </a>
           <a href="https://mleonard.gumroad.com/l/intermediateorganicchemistry">
-            Electronic form via Gumroad
+            Gumroad
           </a>
-          The latter site allows you to purchase a PDF download of the text.
+       
         </div>
+        The latter site allows you to purchase a PDF download of the text.
+          </div>
+       
 
         <h3>About this book</h3>
         <p>

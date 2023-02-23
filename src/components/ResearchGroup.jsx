@@ -2,20 +2,22 @@ import React from "react";
 
 export default function ResearchGroup() {
   return (
-    <div className="page-content">
-      <h1 className="page-title">Research Group</h1>
+    
+      
       <section className="inner-content research-group">
-        <h2>Fall 2022</h2>
+        <h2>Research Group</h2>
+        <hr />
+        <h3>Fall 2022</h3>
         <p>
           Neil N. Pandit (W&J, Class of 2023), “Synthesis of potentially
           neurotoxic and structurally novel heterocycles”
         </p>
-        <h2>Fall 2019</h2>
+        <h3>Fall 2019</h3>
         <p>
           Virginia L. Weber (W&J, Class of 2020), "Synthesis of Novel Compounds
           For Insecticidal Properties"
         </p>
-        <h2>Spring 2019</h2>
+        <h3>Spring 2019</h3>
         <p>
           Hannah R. Lacey (W&J, Class of 2020), "Synthesis of Beta-Carbolines"
         </p>
@@ -23,29 +25,29 @@ export default function ResearchGroup() {
           Sara A. Maute (W&J, Class of 2020), "Synthesis of Potentially
           Insecticidal Compounds"
         </p>
-        <h2>Fall 2018</h2>
+        <h3>Fall 2018</h3>
         <p>
           Hannah R. Lacey (W&J, Class of 2020), "Synthesis of Beta-Carbolines"
         </p>
-        <h2>Spring 2018</h2>
+        <h3>Spring 2018</h3>
         <p>Chase McKevitt (W&J, Class of 2018), "Synthesis of carpatamide A"</p>
-        <h2>Fall 2016</h2>
+        <h3>Fall 2016</h3>
         <p>
           Jonathan M. Spehar (W&J, Class of 2017), "Progress Towards the
           Synthesis of the Heterocycle Choi"
         </p>
-        <h2>Fall 2015 / Spring 2016</h2>
+        <h3>Fall 2015 / Spring 2016</h3>
         <p>
           Caitlin M. Tice (W&J, Class of 2016), "Alternative and FDA-approved
           cancer treatments: comparing hydrophobicity and induction of apoptosis
           in HeLa cells" (Joint project with Dr. DeBerry)
         </p>
-        <h2>Fall 2014</h2>
+        <h3>Fall 2014</h3>
         <p>
           Scott Wytovich (W&J, Class of 2016), "Progress Toward the Synthesis of
           the Choi Framework"
         </p>
-        <h2>Spring 2014</h2>
+        <h3>Spring 2014</h3>
         <p>
           Joshua D. Etzel (W&J, Class of 2014), "Total Synthesis of
           (+)-Laburnamine"
@@ -62,7 +64,7 @@ export default function ResearchGroup() {
           Joshua Tropp (W&J, Class of 2015), "Progress Toward the Synthesis of
           the Choi Framework"
         </p>
-        <h2>Fall 2013 </h2>
+        <h3>Fall 2013 </h3>
         <p>
           Joshua D. Etzel (W&J, Class of 2014), "Progress Toward the Synthesis
           of (+)-Laburnamine"
@@ -71,17 +73,17 @@ export default function ResearchGroup() {
           Andrew T. Pingitore (W&J, Class of 2014), "Studying the Cleavage of
           Esters Using the Hammett Equation (Part I)"
         </p>
-        <h2>Spring 2013</h2>
+        <h3>Spring 2013</h3>
         <p>
           Daniel A. Tannenholtz (W&J, Class of 2013), "Grignard Reaction
           Optimization"
         </p>
-        <h2>Fall 2012</h2>
+        <h3>Fall 2012</h3>
         <p>
           Allison E. Brooks (W&J, Class of 2014), "Alkaloids Isolated from
           Poison Dart Frogs (245F)"
         </p>
-        <h2>Summer 2011</h2>
+        <h3>Summer 2011</h3>
         <p>
           Eric T. Stultz (W&J, Class of 2012), "Progress toward the synthesis of
           poison dart frog alkaloid 237I"
@@ -90,17 +92,17 @@ export default function ResearchGroup() {
           Taylor A. Warmbrodt (W&J, Class of 2012), "Progress toward the
           synthesis of poison dart frog alkaloid 245F"
         </p>
-        <h2>Spring 2011</h2>
+        <h3>Spring 2011</h3>
         <p>
           Bridget E. Piko (W&J, Class of 2011), "Progress Toward the Total
           Synthesis of Chilenine"
         </p>
-        <h2>Fall 2009</h2>
+        <h3>Fall 2009</h3>
         <p>
           Amy L. Keegan (W&J, Class of 2010), "A Model Study Directed Towards
           the Synthesis of a Chilenine Analog"
         </p>
-        <h2>Summer 2009</h2>
+        <h3>Summer 2009</h3>
         <p>Amy L. Keegan (W&J, Class of 2010), “Science & Art Lab Design”</p>
         <p>
           Zachary M. Keene (Washington High School, Class of 2010), “Synthesis
@@ -118,7 +120,7 @@ export default function ResearchGroup() {
           Alena M. Switzer (W&J, Class of 2011), “Total synthesis of lunamarine
           and analogues”
         </p>
-        <h2>Spring 2008</h2>
+        <h3>Spring 2008</h3>
         <p>
           Ashley D. Carbaugh (W&J, Class of 2008), “Synthetic approaches to
           4-(hydroxymethyl)benzoates and cyclophanes”
@@ -132,12 +134,12 @@ export default function ResearchGroup() {
           Lunamarine,” Honors project & winner of the Eaton prize for
           exceptional interdisciplinary research by a student
         </p>
-        <h2>Fall 2007</h2>
+        <h3>Fall 2007</h3>
         <p>
           Kayla R. Lloyd (W&J, Class of 2008), “Effects of Steric Hindrance on a
           Key Cyclization in the Synthesis of the Alkaloid Lunamarine”
         </p>
-        <h2>Summer 2007</h2>
+        <h3>Summer 2007</h3>
         <p>
           Lindsay K. Amos (W&J, Class of 2009), “An Intramolecular Conjugate
           Addition Approach to the Synthesis of Lunamarine”
@@ -154,14 +156,14 @@ export default function ResearchGroup() {
           Laura L. Tomasevich (W&J, Class of 2008), “An Intermolecular Conjugate
           Addition Approach to the Synthesis of Lunamarine”
         </p>
-        <h2>Spring 2007</h2>
+        <h3>Spring 2007</h3>
         <p>
           Nicole M. Kennedy (W&J, Class of 2007), “Synthesis of Yohimbanones and
           Beta-carbolines through Heterocyclic Rearrangement,” Honors project &
           winner of the Eaton prize for exceptional interdisciplinary research
           by a student
         </p>
-        <h2>Fall 2006</h2>
+        <h3>Fall 2006</h3>
         <p>
           Sager J. Gosai (W&J, Class of 2007), “Synthesis of
           4-(Hydroxymethyl)benzoates”
@@ -170,7 +172,7 @@ export default function ResearchGroup() {
           Micker K. Samios (W&J, Class of 2007), “Studies in Polarized Light
           Microscopy”
         </p>
-        <h2>Summer 2006</h2>
+        <h3>Summer 2006</h3>
         <p>
           Ashley D. Carbaugh (W&J, Class of 2008), “Synthetic Approaches to
           4-(Hydroxymethyl)benzoates and Cyclophanes”
@@ -183,7 +185,7 @@ export default function ResearchGroup() {
           Laura L. Tomasevich (W&J, Class of 2008), “Synthesis of Novel
           Resorcinol Derivatives via Fragmentation of Meldrum’s Acid Adducts”
         </p>
-        <h2>Spring 2006</h2>
+        <h3>Spring 2006</h3>
         <p>
           Suet Kam Lam (W&J, Class of 2007), “Progress Toward the Synthesis of a
           Novel Amide-Substituted Beta-Carboline”
@@ -201,12 +203,12 @@ export default function ResearchGroup() {
           Stephen M. Zitelli (W&J, Class of 2006), “A Novel Synthetic Route for
           Producing Beta-Carbolines – Expanding the Methodology”
         </p>
-        <h2>Fall 2005</h2>
+        <h3>Fall 2005</h3>
         <p>
           Chelsey R. Gillen (W&J, Class of 2006), “Further Investigation of
           Novel Routes to Common Heterocyclic Ring Systems”
         </p>
-        <h2>Summer 2005</h2>
+        <h3>Summer 2005</h3>
         <p>
           Chelsey R. Gillen (W&J, Class of 2006), “Investigation of Novel Routes
           to Common Heterocyclic Ring Systems”
@@ -219,7 +221,7 @@ export default function ResearchGroup() {
           Nicole M. Kennedy (W&J, Class of 2007), “Investigation of Novel Routes
           to Common Heterocyclic Ring Systems”
         </p>
-        <h2>Spring 2005</h2>
+        <h3>Spring 2005</h3>
         <p>
           John C. Rohanna (W&J, Class of 2005), “Synthesis of Novel
           Beta--Carbolines and Progress Toward The Synthesis of the Isoquinoline
@@ -230,7 +232,7 @@ export default function ResearchGroup() {
           Rearrangements: Derivatizing Beta-Carbolines and Expanding the
           Methodology” (continuation of research project)
         </p>
-        <h2>Intersession 2005</h2>
+        <h3>Intersession 2005</h3>
         (as part of CHM 347: Bioorganic Research Methods)
         <p>
           Matthew A. Christianson (W&J, Class of 2006), “Lewis Acid Catalysis
@@ -248,7 +250,7 @@ export default function ResearchGroup() {
           Jennifer Kostarellas (W&J, Class of 2005), “Diels-Alder Reactions for
           the Formation of Substituted Benzene Derivatives”
         </p>
-        <h2>Fall 2004</h2>
+        <h3>Fall 2004</h3>
         <p>
           Christopher Castillo (W&J, Class of 2005), “Investigation and
           Synthesis of Chiral Shift Reagents”
@@ -258,7 +260,7 @@ export default function ResearchGroup() {
           Rearrangements: Derivatizing Beta-Carbolines and Expanding the
           Methodology”
         </p>
-        <h2>Summer 2004</h2>
+        <h3>Summer 2004</h3>
         <p>
           Neal J. Baker (W&J, Class of 2006), “A Novel Route to Beta-Carbolines
           and Related Heterocycles”
@@ -275,7 +277,7 @@ export default function ResearchGroup() {
           Stephen M. Zitelli (W&J, Class of 2006), “A Novel Route to
           Beta-Carbolines and Related Heterocycles”
         </p>
-        <h2>Spring 2004</h2>
+        <h3>Spring 2004</h3>
         <p>
           John C. Rohanna (W&J, Class of 2005), “Synthesis of Novel
           Beta-Carbolines by the Pictet-Spengler Reaction of Tryptophan and
@@ -283,6 +285,6 @@ export default function ResearchGroup() {
           Beta-Carboline”
         </p>
       </section>
-    </div>
+    
   );
 }

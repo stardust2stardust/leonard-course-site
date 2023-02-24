@@ -19,7 +19,7 @@ export default function BookCard(props) {
           />
           {/* </div> */}
 
-          <p>{props.card.author}</p>
+          <h3>{props.card.author}</h3>
         {/* </div> */}
       
       </NavLink>

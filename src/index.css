@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 
 :root {
@@ -17,7 +16,12 @@
 body {
   /* max-width: 1200px; */
   margin: 0 auto;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Serif', serif;
 }
 
 h2 {
@@ -70,6 +74,7 @@ hr {
   align-items: center;
   /* border: 2px solid blue; */
   gap: .5rem;
+  font-family: 'Noto Serif', serif;
   
 }
 
@@ -79,6 +84,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 }
 
 .header ul li:hover {
@@ -157,20 +163,7 @@ hr {
 
 
 
-@media (min-width: 768px) {
-  #desktop-menu {
-    display: block;
-  }
 
-  #desktop-menu ul {
-    display: flex;
-    gap: 1rem;
-  }
-
-  #hamburger-icon {
-    display: none;
-  }
-}
 
 /* .navbar {
   width: 100%;
@@ -281,10 +274,16 @@ hr {
 .intro-section .link-to-article {
   display: block;
   text-align: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 1.2rem;
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
   color: var(--brand-red);
   margin-top: 1rem;
+}
+
+.link-to-article:hover {
+  font-size: 1.3rem;
 }
 
 .intro-section .about,
@@ -376,9 +375,7 @@ hr {
   gap: 1rem;
 }
 
-.dl-type a {
 
-}
 
 .book-info-container > p {
   margin: 1rem 0;
@@ -468,7 +465,7 @@ hr {
   margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
-  row-gap: 3rem;
+  gap: 2rem;
   padding-bottom: 2rem;
   justify-content: center;
   max-width: 1000px;
@@ -503,7 +500,7 @@ hr {
 }
 
 .book-card h2, .book-title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   margin-top: 0;
@@ -516,8 +513,8 @@ hr {
   text-align: center;
 }
 
-.book-card p {
-  font-size: 1.2rem;
+.book-card h3 {
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -682,7 +679,21 @@ hr {
   font-style: normal;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
+  #desktop-menu {
+    display: block;
+  }
+
+  #desktop-menu ul {
+    display: flex;
+    gap: 1.2rem;
+    font-size: .9rem;
+  }
+
+  #hamburger-icon {
+    display: none;
+  }
+
   .intro-grid {
     /* background-color: yellow; */
     display: grid;
@@ -708,70 +719,8 @@ hr {
   }
 }
 
-  /* .alt-nav-link-section {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 1rem;
+@media (min-width: 1024px) {
+  #desktop-menu ul {
+    font-size: 1.1rem;
   }
-  .alt-nav-item {
-    margin: 0;
-    width: auto;
-    padding: 0.5rem 1rem;
-    min-width: 200px;
-  } */
-  /* .alt-nav-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 900px;
-    margin: 0 auto;
-    margin-top: 2rem;
-  }
-  .alt-nav-section {
-    flex-basis: 30%;
-    display: flex;
-    flex-direction: column;
-  }
-  .alt-nav-section h3 {
-    min-height: 60px;
-  }
-  .alt-nav-link-section {
-    display: block;
-  }
-  .alt-nav-item {
-    margin-bottom: 1rem;
-  }
-} */
-/* @media (min-width: 1024px) {
-  .home-layout-container {
-    display: flex;
-    max-width: 1200px;
-  }
-  .sidebar {
-    width: 100px;
-    background-color: var(--brand-red);
-  }
-} */
-/* @media (min-width: 1024px) {
-  .alt-nav-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .alt-nav-section {
-    flex-basis: 30%;
-    display: flex;
-    flex-direction: column;
-  }
-  .alt-nav-section h3 {
-    min-height: 60px;
-    margin: 1rem 1rem 1rem 0;
-  }
-  .alt-nav-link-section {
-    display: block;
-
-    border: 2px solid blueviolet;
-  }
-  .alt-nav-item {
-    margin-bottom: 1rem;
-  }
-} */
+}

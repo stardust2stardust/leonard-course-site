@@ -53,8 +53,7 @@ export default function Book2() {
           </a>
         </div>
           </div>
-
-
+          
         <h3>About this book</h3>
         <p>
           Check out excerpts from the book{" "}

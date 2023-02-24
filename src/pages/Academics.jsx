@@ -6,10 +6,8 @@ export default function Academics() {
   return (
     <div className="page-content">
       <h1 className="page-title">Academics</h1>
-      
       <Education />
       <Courses />
-   
     </div>
   );
 }

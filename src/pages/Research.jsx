@@ -77,9 +77,7 @@ export default function Research() {
           </li>
         </ul>
       </section>
-     
         <ResearchGroup />
-      
     </div>
   );
 }

@@ -2,8 +2,6 @@ import React from "react";
 
 export default function ResearchGroup() {
   return (
-    
-      
       <section className="inner-content research-group">
         <h2>Research Group</h2>
         <hr />

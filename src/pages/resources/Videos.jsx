@@ -2,9 +2,6 @@ import React from "react";
 
 export default function Videos() {
   return (
-   
-    
-
       <section className="inner-content videos">
         <h2>YouTube Mechanism Videos </h2>
         <p className="subheading">

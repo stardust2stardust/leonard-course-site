@@ -2,8 +2,6 @@ import React from "react";
 
 export default function Courses() {
   return (
-    
-      
       <section className="inner-content courses">
         <h2>Courses</h2>
         <hr />

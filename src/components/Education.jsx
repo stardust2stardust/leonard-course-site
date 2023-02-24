@@ -2,8 +2,6 @@ import React from "react";
 
 export default function Education() {
   return (
-    
-     
       <section className="inner-content education">
       <h2>Education</h2>
       <hr />

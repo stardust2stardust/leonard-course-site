@@ -19,8 +19,11 @@ export default function Home() {
               Why I Teach
             </a>
           </div>
-
-          <h3 className="about">About</h3>
+          </section>
+          <hr />
+          <section className="about-and-degrees">
+          <div className="about">
+          <h3>About</h3>
           <p>
             Michael Leonard is a professor in the Department of Chemistry. He
             teaches introductory, intermediate and advanced organic chemistry.
@@ -34,12 +37,21 @@ export default function Home() {
             throughout the academic year and have presented their results at
             regional and national meetings.
           </p>
-          <h3 className="degrees">Degrees</h3>
+          </div>
+          <div className="degrees">
+          <h3>Degrees</h3>
           <p>
             Ph.D. Chemistry (Organic/Bioorganic Chemistry), University of
             Pennsylvania; B.A. Chemistry with ACS Certification, Goucher College
           </p>
-        </section>
+          </div>
+         
+          
+          
+          
+          </section>
+          
+        
 
        
       </div>

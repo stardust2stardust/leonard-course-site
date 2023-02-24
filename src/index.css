@@ -1,5 +1,3 @@
-
-
 :root {
   --brand-white: #ffffff;
   --brand-grey: #e0dbe3;
@@ -14,10 +12,8 @@
 }
 
 body {
-  /* max-width: 1200px; */
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
-
 }
 
 h1, h2, h3 {
@@ -35,8 +31,11 @@ h3 {
 }
 
 hr {
-  
   margin-bottom: 1rem;
+}
+
+p, li {
+  max-width: 65ch;
 }
 
 .root-layout {
@@ -52,9 +51,6 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* max-width: 1200px; */
-  /* position: relative; */
-
   height: 75px;
 }
 
@@ -72,10 +68,8 @@ hr {
   font-size: 18px;
   display: flex;
   align-items: center;
-  /* border: 2px solid blue; */
   gap: .5rem;
   font-family: 'Noto Serif', serif;
-  
 }
 
 .header ul {
@@ -84,7 +78,6 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 }
 
 .header ul li:hover {
@@ -93,10 +86,8 @@ hr {
 }
 
 #hamburger-icon {
- 
   display: block;
   cursor: pointer;
-  /* border: 2px solid magenta; */
 }
 
 #hamburger-icon svg {
@@ -104,28 +95,6 @@ hr {
   width: 40px;
   height: 40px;
 }
-
-/* #hamburger-icon div {
-  width: 35px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-} */
-
-/* .open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.open .bar2 {
-  opacity: 0;
-}
-
-.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -8px);
-  transform: rotate(45deg) translate(-6px, -8px);
-} */
 
 .mobile-menu {
   display: none;
@@ -135,7 +104,6 @@ hr {
   height: calc(100vh- 50px);
   width: 100%;
   padding-top: 3rem;
- /* border: 2px solid magenta; */
 }
 
 .mobile-menu.closed  {
@@ -148,71 +116,13 @@ hr {
   gap: 2rem;
   background-color: var(--brand-red);
 }
-/* 
-.open .mobile-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: var(--brand-red);
-} */
 
 .mobile-menu li {
   margin-bottom: 10px;
 }
 
-
-
-
-
-/* .navbar {
-  width: 100%;
-
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* .nav-link {
-  @apply mx-4 px-6 py-2 text-white;
-}
-
-.active {
-  @apply text-white;
-  background-color: #000000;
-} */
-
-/* .home-icon {
-  margin-right: auto;
-} */
-
-/* .header nav ul {
-  display: flex;
-  list-style-type: none;
-  color: var(--brand-white);
-
-  gap: 1.5rem;
-} */
-
-/* .dropdown-items {
-  display: flex;
-  flex-direction: column;
-} */
-
-/* .hidden {
-  display: none;
-} */
-
-/* .header .nav-item {
-  text-decoration: none;
-  color: var(--brand-white);
-  margin: 0 1rem;
-} */
-
 .benzene-icon {
   width: 40px;
-  /* border: 2px solid greenyellow; */
-  /* position: absolute;
-  right: 50%; */
 }
 
 @keyframes benzene-spin {
@@ -233,20 +143,13 @@ hr {
 .page-title {
   font-size: 1.8rem;
   text-align: center;
-  /* background-color: var(--brand-grey); */
   margin: 2rem 0;
 }
 
 .intro-section {
-  /* background-color: var(--brand-grey); */
-
   max-width: 900px;
   margin: 0 auto;
 }
-
-/* .intro-grid {
-  border: 2px solid green;
-} */
 
 .professor-name {
   padding-bottom: 0.5rem;
@@ -274,47 +177,38 @@ hr {
 .intro-section .link-to-article {
   display: block;
   text-align: center;
-  /* text-decoration: none; */
   font-size: 1.2rem;
   font-family: 'Noto Serif', serif;
   font-weight: bold;
   color: var(--brand-red);
-  margin-top: 1rem;
+  margin: 1rem 0 2rem 0;
 }
 
 .link-to-article:hover {
   font-size: 1.3rem;
 }
 
-.intro-section .about,
-.intro-section .degrees {
-  margin: 2rem 0 0.3rem 0;
-}
-
-.about {
-  border-top: 1px solid var(--brand-black);
-  padding-top: 2rem;
-}
-
-.intro-section p {
-  text-align: justify;
-}
-
-/* .section-divider-container {
+.about-and-degrees {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  max-width: 65ch;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  padding: 1rem 2rem 2rem 2rem;
 }
 
-.section-divider {
-  background-color: var(--brand-grey);
-  fill: var(--brand-white);
-  padding: 0;
-} */
+.about-and-degrees h3 {
+  margin-bottom: 0.5rem;
+}
+
+.about-and-degrees .degrees h3 {
+  margin-top: 2rem;
+}
 
 .page-content {
   padding: 2rem;
-
-  /* background-color: var(--brand-grey); */
 }
 
 .resources-layout {
@@ -341,18 +235,6 @@ hr {
   
 }
 
-/* .link-to-resource {
-  text-decoration: none;
-   border: 2px solid var(--brand-black); 
-   padding: .5rem 1rem;
-  box-shadow: 0px 0px 5px var(--brand-grey);
-  color: var(--brand-black);
-} 
-
-.link-to-resource:focus {
-  background-color: var(--brand-grey);
-} */
-
 .book-info-container {
   max-width: 800px;
   margin: 0 auto;
@@ -360,9 +242,7 @@ hr {
 }
 
 .download-link-container {
-  /* text-align: center; */
   margin-bottom: 2rem;
-  
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -375,91 +255,10 @@ hr {
   gap: 1rem;
 }
 
-
-
 .book-info-container > p {
   margin: 1rem 0;
   text-align: justify;
 }
-
-
-
-/* .multiple-links {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 1rem;
-} */
-
-/* .download-link-container a {
-  display: inline-block;
-  text-decoration: none;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
-  color: var(--brand-black);
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
- 
-} */
-
-/*.alt-nav-container {
-   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem; */
-  /* margin-top: 2rem;
-  padding: 2rem 0;
-  border-top: 1px solid var(--brand-black); */
-
-  /* border: 2px solid greenyellow; 
-}
-
-/* .alt-nav-section {
-   display: flex;
-  flex-direction: column;  */
-
-  /* text-align: center;
-  margin-bottom: 3rem; */
-  /* gap: 1rem;
-  align-items: center; 
-} */
-
-/* .alt-nav-section h3 {
-  margin-bottom: 0.8rem;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-} */
-
-/* .alt-nav-item {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-
-  max-width: 300px;
-  text-align: center;
-  background-color: var(--brand-black);
-  color: var(--brand-white);
-  font-size: 1.2rem;
-  text-decoration: none;
-  padding: 1rem;
-  border-radius: 5px;
-}
-
-.alt-nav-item:hover {
-  background-color: var(--brand-red);
-} */
-
-/* .book-container {
-  margin-bottom: 5rem;
-  border: 2px solid magenta;
- 
-}
-
-.book-container a {
-  text-decoration: none;
-  color: var(--brand-black);
-  
-} */
 
 .book-list-container {
   margin: 0 auto;
@@ -473,8 +272,6 @@ hr {
 
 .book-card {
   margin: 0 auto;
-  /* text-align: center; */
-  /* background-color: var(--brand-white); */
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   width: 300px;
   text-decoration: none;
@@ -487,11 +284,6 @@ hr {
   border-radius: 5px;
   color: var(--brand-black);
 }
-
-/* .book-card a {
-  text-decoration: none;
-  
-} */
 
 .book-card--image {
   display: block;
@@ -518,19 +310,6 @@ hr {
   text-align: center;
 }
 
-/* .book-container .more-info-btn {
-  display: block;
-  margin: 0 auto;
-  margin-top: 1.2rem;
-  border: none;
-  background-color: var(--brand-red);
-  color: var(--brand-white);
-  font-size: 1.2rem;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-} */
-
 .inner-content {
   max-width: 800px;
   margin: 0 auto;
@@ -538,11 +317,8 @@ hr {
 
 .inner-content .subheading {
   font-size: 1rem;
+  margin: 0 auto;
 }
-
-/* .inner-content h2 {
-  margin-bottom: 1rem;
-} */
 
 .videos {
   text-align: center;
@@ -578,10 +354,6 @@ hr {
   background-color: var(--brand-red);
 }
 
-/* .research h2 {
-  font-size: 1.2rem;
-} */
-
 .research-list {
   list-style-type: none;
 }
@@ -600,12 +372,6 @@ hr {
   fill: var(--brand-black);
 }
 
-/* .research-group h2,
-.courses h2,
-.education h2 {
-  font-size: 1.5rem;
-} */
-
 .research-group p,
 .courses ul {
   margin-bottom: 1.2rem;
@@ -620,12 +386,12 @@ hr {
   margin-bottom: 1.3rem;
   list-style-type:upper-roman;
   list-style-position: inside;
-  
 }
 
 .education ol li {
   margin-bottom: .5rem;
 }
+
 .education p {
   margin-bottom: 0.5rem;
 }
@@ -638,18 +404,15 @@ hr {
   margin-top: 3rem;
 }
 
-
 .textbook-list > li,
 .presentations-list > li,
 .publications-list > li,
 .interviews-list > li {
   list-style-type: none;
-  /* border: 2px solid blue; */
   margin: 1rem 0 2rem 0;
 }
 
 .textbook-list ul {
-  /* border: 2px solid greenyellow; */
   list-style-type: none;
   margin-top: 1rem;
 }
@@ -695,7 +458,6 @@ hr {
   }
 
   .intro-grid {
-    /* background-color: yellow; */
     display: grid;
     grid-template-columns: 1fr 1fr;
   }

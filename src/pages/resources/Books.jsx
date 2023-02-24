@@ -4,7 +4,7 @@ import bookData from "../../bookData";
 
 export default function Books() {
   const cardElements = bookData.map((card) => {
-    return <BookCard key={card.id} card={card} imgSrc={`bookImg${card.id}`} />;
+    return <BookCard key={card.id} card={card}  />;
   });
 
   return (

@@ -9,7 +9,7 @@ export default function BookCard(props) {
           <h2>{props.card.title}</h2>
           <img
             alt="picture of text book"
-            src={`../src/assets/${props.card.img}`}
+            src={`${props.card.img}`}
             className="book-card--image"
           />
           <h3>{props.card.author}</h3>

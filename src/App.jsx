@@ -12,6 +12,7 @@ import Videos from "./pages/resources/Videos";
 import Research from "./pages/Research";
 import Publications from "./pages/Publications";
 import Academics from "./pages/Academics";
+import PageNotFound from "./pages/PageNotFound";
 
 // books
 import Book1 from "./pages/resources/books/Book1";
@@ -21,6 +22,7 @@ import Book3 from "./pages/resources/books/Book3";
 //layouts
 import RootLayout from "./layouts/RootLayout";
 import ResourcesLayout from "./layouts/ResourcesLayout";
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -48,6 +50,7 @@ const router = createBrowserRouter(
 
       <Route path="publications-and-presentations" element={<Publications />} />
       <Route path="academics" element={<Academics />} />
+      <Route path="*" element={<PageNotFound /> } />
     </Route>
   )
 );

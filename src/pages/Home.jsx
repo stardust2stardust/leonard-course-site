@@ -3,7 +3,7 @@ import article from "../assets/Why_I_Teach_Article.pdf";
 
 export default function Home() {
   return (
-      <div className="page-content">
+      <div className="page-content homepage">
         <section className="intro-section">
           <div className="intro-grid">
             <h1 className="professor-name page-title">Michael S. Leonard, Ph.D.</h1>

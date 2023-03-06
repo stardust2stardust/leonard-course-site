@@ -1,26 +1,34 @@
 export default [
   {
     id: 1,
-    title: "Organic Chemistry and Solutions Manual for Organic Chemistry",
+    title: "Organic Chemistry",
+    subtitle: "Second Edition",
     author: "Michael S. Leonard, Ph.D.",
-    moreInfoLink: "1",
     img: "/book1-imageOnly.jpg",
-    slug: "/resources/books/organic-chemistry-and-solutions-manual",
+    slug: "/resources/books/organic-chemistry",
   },
   {
     id: 2,
-    title: "Introductory Organic Reaction Mechanisms",
+    title: "Solutions Manual for Organic Chemistry",
+    subtitle: "Second Edition",
     author: "Michael S. Leonard, Ph.D.",
-    moreInfoLink: "2",
     img: "/book2-imageOnly.jpg",
-    slug: "/resources/books/intro-organic-reaction-mechanisms",
+    slug: "/resources/books/organic-chemistry",
   },
   {
     id: 3,
+    title: "Introductory Organic Reaction Mechanisms",
+    subtitle: "A color-coded approach to arrow pushing",
+    author: "Michael S. Leonard, Ph.D.",
+    img: "/book3-imageOnly.jpg",
+    slug: "/resources/books/intro-organic-reaction-mechanisms",
+  },
+  {
+    id: 4,
     title: "Intermediate Organic Chemistry",
     author: "Michael S. Leonard, Ph.D.",
-    moreInfoLink: "3",
-    img: "/book3-imageOnly.jpg",
+  
+    img: "/book4-imageOnly.jpg",
     slug: "/resources/books/intermediate-organic-chemistry",
   },
 ];

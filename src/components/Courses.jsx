@@ -5,6 +5,13 @@ export default function Courses() {
       <section className="inner-content courses">
         <h2>Courses</h2>
         <hr />
+        <h3>Spring 2023</h3>
+          <ul>
+            <li>Organic Chemistry II (CHM 170)</li>
+            <li>Organic Chemistry II Lab (CHM 170L)</li>
+            <li>Independent Study in Neuroscience (NSC 501)</li>
+          </ul>
+        
         <h3>JayTerm 2023</h3>
         <ul>
           <li>
@@ -16,6 +23,7 @@ export default function Courses() {
           <li>Organic Chemistry I (CHM 160)</li>
           <li>Organic Chemistry I Lab (CHM 160L)</li>
           <li>Intermediate Organic Chemistry (CHM 320)</li>
+          <li>Independent Study in Neuroscience (NSC 500)</li>
         </ul>
         <h3>Spring 2022</h3>
         <ul>
@@ -75,6 +83,7 @@ export default function Courses() {
         <ul>
           <li>Organic Chemistry I (CHM 160)</li>
           <li>Intermediate Organic Chemistry (CHM 320)</li>
+          <li>Independent Study in Chemistry (CHM 500)</li>
         </ul>
 
         <h3>Summer 2019</h3>
@@ -88,6 +97,7 @@ export default function Courses() {
           <li>Organic Chemistry II (CHM 170)</li>
           <li>Organic Chemistry II Lab (CHM 170L)</li>
           <li>Advanced Organic Chemistry (CHM 420)</li>
+          <li>Independent Study in Chemistry (CHM 501)</li>
         </ul>
 
         <h3>JayTerm 2019</h3>

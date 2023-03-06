@@ -6,9 +6,12 @@ export default function Book3() {
     <div>
       <div className="book-container">
         <div className="book-card">
-          <h1 className="book-title">
-            Intermediate Organic Chemistry Textbook
-          </h1>
+          <div className="title-section">
+            <h1 className="book-title">
+              Introductory Organic Reaction Mechanisms:
+            </h1>
+            <p className="subtitle">A color-coded approach to arrow pushing</p>
+          </div>
 
           <img
             alt="picture of text book"
@@ -20,110 +23,104 @@ export default function Book3() {
         </div>
       </div>
 
+     
       <div className="book-info-container">
       <div className="download-link-container multiple-links">
         <h2>Get the book</h2>
           <div className="dl-type">
             <p>Hard Copy: </p>
-            <a href="https://www.lulu.com/shop/michael-leonard/intermediate-organic-chemistry/paperback/product-21107718.html?page=1&pageSize=4">
+          <a
+            href="https://www.lulu.com/shop/michael-leonard/introductory-organic-reaction-mechanisms-a-color-coded-approach-to-arrow-pushing/paperback/product-21240857.html?showPreview=true&page=1&pageSize=4"
+            target="_blank"
+          >
             Lulu
-          </a>{" "}
-          <a href="https://www.amazon.com/dp/1304217566?ref_=cm_sw_r_mwn_dp_2J9065RN4FK7BVKBT0GP">
-            Amazon
+          </a>
+
+          <a
+            href="https://www.amazon.com/dp/1304515893?ref_=cm_sw_r_mwn_dp_7KNMP1WY7TV4SNPP7KQG"
+            target="_blank"
+          >
+           Amazon
           </a>
           </div>
           <div className="dl-type">
             <p>Electronic form: </p>
-            <a href="https://www.scribd.com/doc/152768407/Intermediate-Organic-Chemistry">
+            <a
+            href="https://www.scribd.com/doc/174107198/Introductory-Organic-Reaction-Mechanisms-A-color-coded-approach-to-arrow-pushing"
+            target="_blank"
+          >
             Scribd
           </a>
-          <a href="https://mleonard.gumroad.com/l/intermediateorganicchemistry">
+          <a href="https://mleonard.gumroad.com/l/introductoryorganicreactionmechanisms" target="_blank">
             Gumroad
           </a>
-       
         </div>
-        The latter site allows you to purchase a PDF download of the text.
           </div>
-       
-
+          
         <h3>About this book</h3>
         <p>
-          The mission of the text is to bridge the gap between introductory
-          Organic Chemistry coursework and advanced/graduate-level coursework
-          but to do so in a way that extends the student-centered approach of
-          most modern introductory Organic Chemistry textbooks. This text makes
-          extensive use of detailed explanations and color coding to facilitate
-          the learning process. The intended student audience is juniors and
-          seniors at the undergraduate level who are taking an Intermediate or
-          Advanced Organic Chemistry class.
+          Check out excerpts from the book{" "}
+          <a
+            href="https://www.youtube.com/user/OrganicMechanisms"
+            target="_blank"
+          >
+            here
+          </a>
+          .
         </p>
 
         <p>
-          This text's style is one that is shared by many instructors of Organic
-          Chemistry: mechanistically driven and detailed. Extensive use of color
-          coding helps students to learn mechanism and cogently predict reaction
-          products. The electrons that are mechanistically involved in each
-          transformation are color coded. The mechanistic arrows originating
-          from those electrons are colored identically, as are the bonds and/or
-          lone pairs that result from the electron flow. This approach, along
-          with detailed verbal explanations, conveys the narrative of the
-          mechanism.
+          To master Organic Chemistry, it is essential to master mechanism.
+          Think about three of the most common types of questions on Organic
+          Chemistry exams. You are often asked to predict the product of a
+          chemical reaction, to draw the reaction mechanism, or to devise a
+          synthesis of an organic molecule. None of these questions can be
+          answered reliably unless you know how the reactions work, and that is
+          what mechanism tells us. This book uses a novel approach to help you
+          better understand the mechanisms of organic transformations.
         </p>
 
         <p>
-          The text begins with a section on Structure Solving (Part I), which
-          contains chapters on Mass Spectrometry, Nuclear Magnetic Resonance,
-          and Infrared Spectroscopy. A novel feature of this part of the text is
-          a chapter on Structure Elucidation. In this chapter, students engage
-          in a detailed discussion of applying the principles they have learned
-          to actual structure-solving problems. There are six structure
-          elucidation “case studies” that help students to orchestrate
-          fundamental concepts as they approach practical problems.
+          The mechanisms of 80 common organic reactions are presented herein.
+          Each one is color coded so that you can clearly see the changes that
+          take place during the reaction. The electrons involved in the
+          mechanism are color coded, as are the arrows originating from those
+          electrons and the bonds or lone pairs formed by them in the
+          intermediates and product. As a result, you can trace specific pairs
+          of electrons through an entire transformation. The description of what
+          each mechanistic arrow means is color coded correspondingly so that it
+          is easy to match up the text with the relevant portion of a reaction
+          diagram.
         </p>
 
         <p>
-          The text then progresses to Part II: Aromatic Chemistry Expanded. The
-          first chapter in this section discusses the diazotization of aryl
-          amines and the substitution or coupling reactions that follow. The
-          second chapter in this section focuses on aryl halides and their
-          addition-elimination (SNAr) reactions, as well as their
-          elimination-addition (benzyne) reactions.
+          There are 80 entries in this book, one for each reaction mechanism.
+          Within these entries, you will find an overview of the reaction, a
+          generic mechanism, a mechanism for a specific example, and a reaction
+          summary. Where it is relevant, you will also find sections devoted to
+          subtleties such as regiochemistry, stereochemistry, and/or carbocation
+          rearrangement. The reactions are divided among the substrates whose
+          behavior they describe. You will find acid-base chemistry along with
+          reactions of alkanes, alkyl halides, alcohols, ethers, alkenes,
+          alkynes, dienes, aromatic rings, aldehydes and ketones, carboxylic
+          acid derivatives, alpha carbons, and amines. This categorization
+          allows you to easily match up topics in this book with the topics you
+          are covering in your Organic Chemistry class. If you are reviewing for
+          the GRE, MCAT, or other standardized exams, you may find it more
+          efficient to review the concise mechanistic entries in this book than
+          to review all of your original course notes.
         </p>
 
         <p>
-          In Part III (Radical Reactions), students first encounter a chapter on
-          Basic radical chemistry, which is useful since this topic sometimes
-          receives less attention in introductory courses than heterolytic
-          processes. The next chapter in this section is a discussion of
-          Advanced radical chemistry that addresses synthetically useful radical
-          transformations and culminates in an example from the primary
-          literature.
-        </p>
-
-        <p>
-          Part IV of the text introduces new ionic reactions through chapters on
-          the synthesis of: alkenes; alcohols; amines; aldehydes, ketones, and
-          their derivatives; and carboxylic acids and their derivatives. The
-          latter four chapters in this five-chapter series also discuss the
-          relevant protecting group chemistry for each functionality. These
-          chapters explore a series of named reactions and/or modern methods for
-          the preparation of commonly occurring functional groups.
-        </p>
-
-        <p>
-          Finally, the text concludes with an overview of Polymers in Part V.
-          There is a chapter on chain-growth polymers, which incorporates
-          concepts from the prior section on Radical Chemistry. There is also a
-          chapter on step-growth polymers, which reinforces the topic on Ionic
-          Reactions and culminates with a short introduction to dendrons and
-          dendrimers.
-        </p>
-
-        <p>
-          Each chapter includes a set of problems, most of which incorporate
-          compounds or reactions found in the primary chemical literature.
-          Detailed solutions to these problems are found at the end of the text
-          and include the same color-coding approach used throughout the book.
+          I hope that this book will be a helpful resource for students who are
+          taking Organic Chemistry for the first time, as well as for those who
+          are reviewing the course material for one reason or another. Once you
+          have mastered the mechanisms in this book, you will find it easier to
+          rationally predict reaction products. You will also find it easier to
+          propose thoughtful syntheses. You might even find yourself using
+          colored pencils or pens as you draw mechanisms! I hope that you will
+          enjoy this book and that it will make it easier for you to learn
+          Organic Chemistry.
         </p>
       </div>
     </div>

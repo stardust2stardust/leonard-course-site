@@ -6,8 +6,11 @@ export default function Home() {
       <div className="page-content homepage">
         <section className="intro-section">
           <div className="intro-grid">
-            <h1 className="professor-name page-title">Michael S. Leonard, Ph.D.</h1>
-            <h2 className="professor-title">Professor of Chemistry</h2>
+            <div className="intro-headings">
+              <h1 className="professor-name page-title">Michael S. Leonard, Ph.D.</h1>
+              <h2 className="professor-title">Professor of Chemistry</h2>
+              <h3 className="professor-school">Washington & Jefferson College</h3>
+            </div>
             <img
               src={introPhoto}
               alt="photo of Michael Leonard, PhD"
@@ -23,8 +26,7 @@ export default function Home() {
             <div className="about">
                 <h3>About</h3>
                 <p>
-                  Michael Leonard is a professor in the Department of Chemistry. He
-                  teaches introductory, intermediate and advanced organic chemistry.
+                  Michael Leonard is a professor in the Department of Chemistry at Washington & Jefferson College in Washington, PA. He teaches introductory, intermediate and advanced organic chemistry.
                   Dr. Leonard has also taught biochemistry and courses for non-science
                   majors, including “Science & Art” and “Molecules That Changed The
                   World.” His JayTerm course, “Easing the transition from Organic

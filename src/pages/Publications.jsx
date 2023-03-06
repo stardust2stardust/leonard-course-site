@@ -11,7 +11,7 @@ export default function Publications() {
           <li>
             <h3>
               Leonard, Michael S. Organic Chemistry and Solutions Manual for
-              Organic Chemistry, First Edition: 2015.
+              Organic Chemistry, First Edition: 2015; Second Edition: 2023.
             </h3>
             
             <ul>
@@ -23,7 +23,7 @@ export default function Publications() {
                 >
                   free PDF downloads
                 </a>
-                (simply enter $0 in the price field).
+                {" "}(simply enter $0 in the price field).
               </li>
             </ul>
           </li>
@@ -34,25 +34,25 @@ export default function Publications() {
             </h3>
             <ul>
               <li>
-                <a href="https://www.lulu.com/shop/michael-leonard/introductory-organic-reaction-mechanisms-a-color-coded-approach-to-arrow-pushing/paperback/product-21240857.html?page=1&pageSize=4">
+                <a href="https://www.lulu.com/shop/michael-leonard/introductory-organic-reaction-mechanisms-a-color-coded-approach-to-arrow-pushing/paperback/product-21240857.html?page=1&pageSize=4" target="_blank">
                   The publisher’s page
                 </a>
               </li>
               <li>
                 The textbook is also available as an{" "}
-                <a href="https://www.scribd.com/doc/174107198/Introductory-Organic-Reaction-Mechanisms-A-color-coded-approach-to-arrow-pushing#">
+                <a href="https://www.scribd.com/doc/174107198/Introductory-Organic-Reaction-Mechanisms-A-color-coded-approach-to-arrow-pushing#" target="_blank">
                   e-book on Scribd
                 </a>
               </li>
               <li>
                 The text is also available on{" "}
-                <a href="https://www.amazon.com/dp/1304515893?ref_=cm_sw_r_mwn_dp_7KNMP1WY7TV4SNPP7KQG">
+                <a href="https://www.amazon.com/dp/1304515893?ref_=cm_sw_r_mwn_dp_7KNMP1WY7TV4SNPP7KQG" target="_blank">
                   Amazon
                 </a>
               </li>
               <li>
                 The text is accompanied by a{" "}
-                <a href="https://www.youtube.com/@OrganicMechanisms/playlists">
+                <a href="https://www.youtube.com/@OrganicMechanisms/playlists" target="_blank">
                   YouTube channel
                 </a>{" "}
                 in which each of the 80 mechanisms in the book is presented over
@@ -198,7 +198,7 @@ export default function Publications() {
 
           <li>
             Maute, S. A.; Leonard, M. S. "
-            <a href="https://www.morressier.com/o/event/5e733c5acde2b641284a7e27/article/5e73d6ce139645f83c229a56">
+            <a href="https://www.morressier.com/o/event/5e733c5acde2b641284a7e27/article/5e73d6ce139645f83c229a56" target="_blank">
               Beta-carboline derivative synthesized from an amino acid.
             </a>
             " Abstracts of Papers, 259th National Meeting of the American

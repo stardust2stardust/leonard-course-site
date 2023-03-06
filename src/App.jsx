@@ -16,8 +16,9 @@ import PageNotFound from "./pages/PageNotFound";
 
 // books
 import Book1 from "./pages/resources/books/Book1";
-import Book2 from "./pages/resources/books/Book2";
+// import Book2 from "./pages/resources/books/Book2";
 import Book3 from "./pages/resources/books/Book3";
+import Book4 from "./pages/resources/books/Book4";
 
 //layouts
 import RootLayout from "./layouts/RootLayout";
@@ -33,16 +34,20 @@ const router = createBrowserRouter(
         <Route path="books" element={<Books />} />
         <Route path="videos" element={<Videos />} />
         <Route
-          path="books/organic-chemistry-and-solutions-manual"
+          path="books/organic-chemistry"
           element={<Book1 />}
         />
+        {/* <Route
+          path="books/organic-chemistry-solutions-manual"
+          element={<Book2 />}
+        /> */}
         <Route
           path="books/intro-organic-reaction-mechanisms"
-          element={<Book2 />}
+          element={<Book3 />}
         />
         <Route
           path="books/intermediate-organic-chemistry"
-          element={<Book3 />}
+          element={<Book4 />}
         />
       </Route>
 

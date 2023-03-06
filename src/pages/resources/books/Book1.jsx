@@ -5,9 +5,13 @@ export default function Book1() {
     <div>
       <div className="book-container">
         <div className="book-card">
-          <h1 className="book-title">
-            Organic Chemistry Textbook and Solutions Manual
-          </h1>
+          <div className="book-titles">
+          <h2 className="book-title">
+            Organic Chemistry and Solutions Manual
+          </h2>
+          <h3>Second Edition</h3>
+          </div>
+          
 
           <img
             alt="picture of text book"
@@ -17,10 +21,11 @@ export default function Book1() {
 
           <p>Michael S. Leonard</p>
         </div>
+      
       </div>
       <div className="book-info-container">
         <div className="download-link-container">
-          <h2>Get the book</h2>
+          <h2>Get the Textbook and the Solutions Manual</h2>
          <div>
          <a
             className="download-link"

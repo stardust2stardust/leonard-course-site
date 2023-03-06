@@ -15,7 +15,7 @@ export default function Research() {
           <li>
             Leonard, M. S. "
             <a
-              href="https://www.arkat-usa.org/arkivoc-journal/browse-arkivoc/2013/1/"
+              href="https://www.arkat-usa.org/arkivoc-journal/browse-arkivoc/ark.5550190.0014.101"
               target="_blank"
             >
               The aporhoeadane alkaloids

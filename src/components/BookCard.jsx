@@ -6,7 +6,10 @@ export default function BookCard(props) {
 
   return (
       <NavLink className="info-link book-card" to={bookSlug}>
+          <div className="book-card--title">
           <h2>{props.card.title}</h2>
+          <h3>{props.card.subtitle}</h3>
+          </div>
           <img
             alt="picture of text book"
             src={`${props.card.img}`}

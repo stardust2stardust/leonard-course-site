@@ -5,6 +5,8 @@ export default function ResearchGroup() {
       <section className="inner-content research-group">
         <h2>Research Group</h2>
         <hr />
+        <h3>Spring 2023</h3>
+        <p>Neil N. Pandit (W&J, Class of 2023), “Synthesis of potentially neurotoxic and structurally novel heterocycles”</p>
         <h3>Fall 2022</h3>
         <p>
           Neil N. Pandit (W&J, Class of 2023), “Synthesis of potentially

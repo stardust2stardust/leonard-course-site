@@ -16,7 +16,6 @@ import PageNotFound from "./pages/PageNotFound";
 
 // books
 import Book1 from "./pages/resources/books/Book1";
-// import Book2 from "./pages/resources/books/Book2";
 import Book3 from "./pages/resources/books/Book3";
 import Book4 from "./pages/resources/books/Book4";
 
@@ -37,10 +36,6 @@ const router = createBrowserRouter(
           path="books/organic-chemistry"
           element={<Book1 />}
         />
-        {/* <Route
-          path="books/organic-chemistry-solutions-manual"
-          element={<Book2 />}
-        /> */}
         <Route
           path="books/intro-organic-reaction-mechanisms"
           element={<Book3 />}
@@ -66,16 +61,3 @@ function App() {
 
 export default App;
 
-// import Header from "./components/Header";
-// import TopSection from "./components/TopSection";
-// import ContentSection from "./components/ContentSection";
-// import Footer from "./components/Footer";
-// import SectionDivider from "./components/SectionDivider";
-
-{
-  /* <Header />
-<TopSection />
-<SectionDivider />
-<ContentSection />
-<Footer /> */
-}
